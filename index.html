@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <p class="text">Enter Amount:</p>
+      <input type="text" class="amount" />
+      <div class="dropdown">
+        <div class="selection-container">
+          <img src="https://flagsapi.com/US/flat/64.png" alt="" />
+          <select name="from" id="from" class="country"></select>
+        </div>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3580/3580097.png"
+          alt=""
+          class="exchange-img"
+        />
+        <div class="selection-container">
+          <img src="https://flagsapi.com/IN/flat/64.png" alt="" />
+          <select name="to" id="to" class="country"></select>
+        </div>
+      </div>
+      <p class="finalAmount"></p>
+      <button class="ex-btn">Get Exchange Rate</button>
+    </div>
+    <script src="code.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
