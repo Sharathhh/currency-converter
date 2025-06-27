@@ -1,4 +1,4 @@
-# Currency Converter
+## Currency Converter
 
 A simple, responsive web application that allows users to convert amounts between different currencies. The application features a visually appealing animated background and is built using HTML, CSS, and JavaScript.
 
@@ -52,6 +52,11 @@ currency-converter/
 3. Upon clicking the **Get Exchange Rate** button:
    - The application fetches the exchange rate from the API.
    - The converted amount is displayed below the button.
+
+  
+## ScreenShot
+
+<img src='' ![image](https://github.com/user-attachments/assets/c1936fe5-41ff-4b5b-878e-84752d96683c) >
 
 
 ---
